@@ -2,7 +2,7 @@
 
 :root {
   font-family: "League Spartan", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.03rem;
 
 }
 
@@ -21,6 +21,11 @@ h3 {
   font-size: 1.6em;
   line-height: 1.1;
 }
+h4 {
+  font-family: "Lora";
+  font-size: 1.2em;
+  line-height: 1.1;
+}
 
 h5 {
   font-family: "Lora";
@@ -28,6 +33,7 @@ h5 {
   font-weight: 700;
   line-height: 1.1;
 }
+
 
 
 

@@ -7,14 +7,16 @@ import About from '../About'
 import Resume from '../Resume'
 
 import './App.css'
+import ProjectOne from '../ProjectOne'
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <Home/>},
     { path: '/work', element: <Work/>},
+    { path: '/work/my-health', element: <ProjectOne/>},
     { path: '/hobies', element: <Hobies/>},
     { path: '/about', element: <About/>},
-    { path: '/resume', element: <Resume/>},
+    { path: '/resume', element: <Resume/>}
   ])
 
   return routes

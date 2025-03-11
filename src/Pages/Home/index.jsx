@@ -1,5 +1,6 @@
 import Header from '../../Components/Header';
 import ProjectsList from '../../Components/ProjectsList';
+import MyOverview from '../../Components/MyOverview';
 
 function Home () {
   return (
@@ -8,6 +9,7 @@ function Home () {
       <Header />
       <main>
         <ProjectsList />
+        <MyOverview />
         {/* <Bio /> */}
       </main>
 {/*       <Footer /> */}
